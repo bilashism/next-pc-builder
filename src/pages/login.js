@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Login.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
+import RootLayout from "@/components/Layout/RootLayout";
 const LoginPage = () => {
   return (
     <div>
@@ -28,3 +29,7 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
+LoginPage.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};
