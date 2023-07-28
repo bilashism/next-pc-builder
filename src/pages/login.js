@@ -1,7 +1,7 @@
-import { Button } from "antd";
-import { GoogleOutlined, GithubOutlined } from "@ant-design/icons";
 import Head from "next/head";
 import styles from "@/styles/Login.module.css";
+import { FcGoogle } from "react-icons/fc";
+import { BsGithub } from "react-icons/bs";
 const LoginPage = () => {
   return (
     <div>
@@ -11,8 +11,8 @@ const LoginPage = () => {
       <div className={styles.form}>
         <h3>LOGIN</h3>
         <div className={styles.social_icons}>
-          <GoogleOutlined />
-          <GithubOutlined />
+          <FcGoogle />
+          <BsGithub />
         </div>
         <hr />
         <form>
@@ -20,7 +20,7 @@ const LoginPage = () => {
           <input type="email" />
           <label htmlFor="">Your Password</label>
           <input type="password" />
-          <Button>Login</Button>
+          <button type="button">Login</button>
         </form>
       </div>
     </div>

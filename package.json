@@ -1,19 +1,42 @@
 {
-  "name": "nextjs-auth",
+  "name": "next-pc-builder",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "antd": "^5.7.0",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9",
-    "next": "13.4.9",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+  "description": "Next js app for pc building website",
+  "main": "./src/pages/index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "json-server": "json-server --watch db.json --port 5000"
+    },
+    "dependencies": {
+      "next": "^13.4.12",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.10.1"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.14",
+      "daisyui": "^3.5.0",
+      "eslint": "^8.45.0",
+      "eslint-config-next": "^13.4.12",
+      "json-server": "^0.17.3",
+      "postcss": "^8.4.27",
+      "tailwindcss": "^3.3.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bilashism/next-pc-builder.git"
+    },
+    "keywords": [
+      "nextjs"
+    ],
+    "author": "Md. Taifuzzaman Bilash <bilashism@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bilashism/next-pc-builder/issues"
+    },
+    "homepage": "https://github.com/bilashism/next-pc-builder#readme"
 }

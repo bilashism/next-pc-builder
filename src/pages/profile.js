@@ -1,5 +1,4 @@
-import { Avatar } from "antd";
-import { UserOutlined } from "@ant-design/icons";
+import { BiSolidUserCircle } from "react-icons/bi";
 
 import Head from "next/head";
 const ProfilePage = () => {
@@ -9,7 +8,7 @@ const ProfilePage = () => {
         <title>Next Profile</title>
       </Head>
       <h1>User Profile</h1>
-      <Avatar size={64} icon={<UserOutlined />} />
+      <BiSolidUserCircle />
     </div>
   );
 };
