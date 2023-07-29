@@ -1,2 +1,6 @@
-const Banner = () => <h2 className="">jvhv</h2>;
+const Banner = () => (
+  <div className="">
+    <h2 className="">Banner</h2>
+  </div>
+);
 export default Banner;

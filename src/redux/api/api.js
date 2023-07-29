@@ -8,14 +8,12 @@ export const apiSlice = createApi({
   // All of our requests will have URLs starting with '/fakeApi'
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000/" }),
   // The "endpoints" represent operations and requests for this server
-  endpoints: (builder) => ({
-    // The `getPosts` endpoint is a "query" operation that returns data
-    getNewses: builder.query({
-      // The URL for the request is '/fakeApi/posts'
-      query: () => "/news",
-    }),
-  }),
+  endpoints: builder => ({
+    getCategories: builder.query({
+      query: () => "/categories"
+    })
+  })
 });
 
 // Export the auto-generated hook for the `getPosts` query endpoint
-export const { useGetNewsesQuery } = apiSlice;
+export const { useGetCategoriesQuery } = apiSlice;

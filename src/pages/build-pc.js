@@ -1,15 +1,14 @@
-import { BiSolidUserCircle } from "react-icons/bi";
+/* eslint-disable react/no-unescaped-entities */
 
 import Head from "next/head";
 import RootLayout from "@/components/Layout/RootLayout";
 const ProfilePage = () => {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div className="text-center">
       <Head>
-        <title>Next Profile</title>
+        <title>Let's build your next PC</title>
       </Head>
-      <h1>User Profile</h1>
-      <BiSolidUserCircle />
+      <h1>Let's build your next PC</h1>
     </div>
   );
 };

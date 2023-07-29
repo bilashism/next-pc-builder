@@ -3,9 +3,16 @@ import Link from "next/link";
 
 import { Dropdown, Navbar } from "flowbite-react";
 import { useRouter } from "next/router";
+import { useGetCategoriesQuery } from "@/redux/api/api";
 
 const NavigationEL = () => {
-  const { pathname } = useRouter();
+  const { pathname, asPath } = useRouter();
+  const {
+    data: categoriesData,
+    isLoading,
+    isError,
+    error
+  } = useGetCategoriesQuery(); //-> redux store data
   return (
     <Navbar fluid rounded className="sticky top-0">
       <Link href="/" className="text-blue-500 font-bold">
@@ -52,29 +59,29 @@ const NavigationEL = () => {
         <Dropdown
           inline
           label={
-            <span className="text-blue-500 stroke-blue-500">Categories</span>
-          }>
-          <Dropdown.Item>
-            <Link href="/categories/cpu-processor"> CPU / Processor</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/motherboard"> Motherboard</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/ram"> RAM</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/power-supply-unit"> Power Supply Unit</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/storage-device"> Storage Device</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/monitor"> Monitor</Link>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <Link href="/categories/others"> Others</Link>
-          </Dropdown.Item>
+            <span
+              className={`${
+                pathname === "/categories/[category]"
+                  ? "text-red-400"
+                  : "text-blue-500"
+              }`}>
+              Categories
+            </span>
+          }
+          className="">
+          {categoriesData?.map(category => (
+            <Dropdown.Item key={category?.id} className="p-0">
+              <Link
+                href={`/categories/${category?.id}`}
+                className={`${
+                  asPath === `/categories/${category?.id}`
+                    ? "text-red-400"
+                    : "text-blue-500"
+                } w-full h-full px-3 py-2 text-start`}>
+                {category?.name}
+              </Link>
+            </Dropdown.Item>
+          ))}
         </Dropdown>
         <Link
           href="/build-pc"
@@ -88,3 +95,4 @@ const NavigationEL = () => {
   );
 };
 export default NavigationEL;
+

@@ -1,38 +1,38 @@
 {
   "categories": [
     {
-      "id": "cat-cpu",
+      "id": "cpu",
       "name": "CPU / Processor"
     },
     {
-      "id": "cat-motherboard",
+      "id": "motherboard",
       "name": "Motherboard"
     },
     {
-      "id": "cat-ram",
+      "id": "ram",
       "name": "RAM"
     },
     {
-      "id": "cat-powerSupplyUnit",
+      "id": "power",
       "name": "Power Supply Unit"
     },
     {
-      "id": "cat-storageDevice",
+      "id": "storage",
       "name": "Storage Device"
     },
     {
-      "id": "cat-monitor",
+      "id": "monitor",
       "name": "Monitor"
     },
     {
-      "id": "cat-others",
+      "id": "others",
       "name": "Others"
     }
   ],
-  "cpuProcessor": [
+  "products": [
     {
       "id": "cpu-1",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_1.jpg",
       "productName": "Intel Core i9-9900K",
       "category": "CPU / Processor",
@@ -59,7 +59,7 @@
     },
     {
       "id": "cpu-2",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_2.jpg",
       "productName": "AMD Ryzen 9 5900X",
       "category": "CPU / Processor",
@@ -86,7 +86,7 @@
     },
     {
       "id": "cpu-3",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_3.jpg",
       "productName": "AMD Ryzen 7 5800X",
       "category": "CPU / Processor",
@@ -113,7 +113,7 @@
     },
     {
       "id": "cpu-4",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_4.jpg",
       "productName": "Intel Core i7-11700K",
       "category": "CPU / Processor",
@@ -140,7 +140,7 @@
     },
     {
       "id": "cpu-5",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_5.jpg",
       "productName": "AMD Ryzen 5 5600X",
       "category": "CPU / Processor",
@@ -167,7 +167,7 @@
     },
     {
       "id": "cpu-6",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_6.jpg",
       "productName": "Intel Core i5-11600K",
       "category": "CPU / Processor",
@@ -194,7 +194,7 @@
     },
     {
       "id": "cpu-7",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_7.jpg",
       "productName": "AMD Ryzen 9 5950X",
       "category": "CPU / Processor",
@@ -221,7 +221,7 @@
     },
     {
       "id": "cpu-8",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_8.jpg",
       "productName": "Intel Core i5-11400F",
       "category": "CPU / Processor",
@@ -248,7 +248,7 @@
     },
     {
       "id": "cpu-9",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_9.jpg",
       "productName": "AMD Ryzen 7 3700X",
       "category": "CPU / Processor",
@@ -275,7 +275,7 @@
     },
     {
       "id": "cpu-10",
-      "categoryId": "cat-cpu",
+      "categoryId": "cpu",
       "image": "cpu_image_10.jpg",
       "productName": "Intel Core i3-10100",
       "category": "CPU / Processor",
@@ -299,12 +299,10 @@
           "comment": "Affordable and reliable for everyday use."
         }
       ]
-    }
-  ],
-  "motherboard": [
+    },
     {
       "id": "motherboard-1",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_1.jpg",
       "productName": "ASUS ROG Strix Z590-E",
       "category": "Motherboard",
@@ -331,7 +329,7 @@
     },
     {
       "id": "motherboard-2",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_2.jpg",
       "productName": "GIGABYTE B550 AORUS Elite",
       "category": "Motherboard",
@@ -358,7 +356,7 @@
     },
     {
       "id": "motherboard-3",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_3.jpg",
       "productName": "MSI MPG X570 GAMING PRO CARBON",
       "category": "Motherboard",
@@ -385,7 +383,7 @@
     },
     {
       "id": "motherboard-4",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_4.jpg",
       "productName": "ASRock B560M-ITX/ac",
       "category": "Motherboard",
@@ -412,7 +410,7 @@
     },
     {
       "id": "motherboard-5",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_5.jpg",
       "productName": "ASUS Prime H510M-E",
       "category": "Motherboard",
@@ -439,7 +437,7 @@
     },
     {
       "id": "motherboard-6",
-      "categoryId": "cat-motherboard",
+      "categoryId": "motherboard",
       "image": "motherboard_image_6.jpg",
       "productName": "ASRock X570 Taichi",
       "category": "Motherboard",
@@ -463,12 +461,10 @@
           "comment": "Great for overclocking and professional workloads."
         }
       ]
-    }
-  ],
-  "ram": [
+    },
     {
       "id": "ram-1",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_1.jpg",
       "productName": "Corsair Vengeance LPX 16GB",
       "category": "RAM",
@@ -495,7 +491,7 @@
     },
     {
       "id": "ram-2",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_2.jpg",
       "productName": "G.Skill Trident Z RGB 32GB",
       "category": "RAM",
@@ -522,7 +518,7 @@
     },
     {
       "id": "ram-3",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_3.jpg",
       "productName": "Crucial Ballistix 8GB",
       "category": "RAM",
@@ -549,7 +545,7 @@
     },
     {
       "id": "ram-4",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_4.jpg",
       "productName": "Team T-FORCE DARK Z 64GB",
       "category": "RAM",
@@ -576,7 +572,7 @@
     },
     {
       "id": "ram-5",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_5.jpg",
       "productName": "HyperX Fury 32GB",
       "category": "RAM",
@@ -603,7 +599,7 @@
     },
     {
       "id": "ram-6",
-      "categoryId": "cat-ram",
+      "categoryId": "ram",
       "image": "ram_image_6.jpg",
       "productName": "Corsair Vengeance RGB Pro 64GB",
       "category": "RAM",
@@ -627,12 +623,10 @@
           "comment": "Ideal for gaming and multitasking, but a bit pricey."
         }
       ]
-    }
-  ],
-  "powerSupplyUnit": [
+    },
     {
       "id": "psu-1",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_1.jpg",
       "productName": "Corsair RM750x",
       "category": "Power Supply Unit",
@@ -659,7 +653,7 @@
     },
     {
       "id": "psu-2",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_2.jpg",
       "productName": "EVGA SuperNOVA 850 G3",
       "category": "Power Supply Unit",
@@ -686,7 +680,7 @@
     },
     {
       "id": "psu-3",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_3.jpg",
       "productName": "Seasonic Focus GX-650",
       "category": "Power Supply Unit",
@@ -713,7 +707,7 @@
     },
     {
       "id": "psu-4",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_4.jpg",
       "productName": "Thermaltake Toughpower GF1 750W",
       "category": "Power Supply Unit",
@@ -740,7 +734,7 @@
     },
     {
       "id": "psu-5",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_5.jpg",
       "productName": "Cooler Master MWE Gold 650",
       "category": "Power Supply Unit",
@@ -767,7 +761,7 @@
     },
     {
       "id": "psu-6",
-      "categoryId": "cat-powerSupplyUnit",
+      "categoryId": "power",
       "image": "psu_image_6.jpg",
       "productName": "be quiet! Straight Power 11 850W",
       "category": "Power Supply Unit",
@@ -791,12 +785,10 @@
           "comment": "The fan remains almost silent even under load."
         }
       ]
-    }
-  ],
-  "storageDevice": [
+    },
     {
       "id": "storage-1",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_1.jpg",
       "productName": "Samsung 980 PRO NVMe SSD",
       "category": "Storage Device",
@@ -823,7 +815,7 @@
     },
     {
       "id": "storage-2",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_2.jpg",
       "productName": "Western Digital Blue SATA SSD",
       "category": "Storage Device",
@@ -850,7 +842,7 @@
     },
     {
       "id": "storage-3",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_3.jpg",
       "productName": "Seagate BarraCuda Internal HDD",
       "category": "Storage Device",
@@ -877,7 +869,7 @@
     },
     {
       "id": "storage-4",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_4.jpg",
       "productName": "Crucial MX500 SATA SSD",
       "category": "Storage Device",
@@ -904,7 +896,7 @@
     },
     {
       "id": "storage-5",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_5.jpg",
       "productName": "Sabrent Rocket Q NVMe SSD",
       "category": "Storage Device",
@@ -931,7 +923,7 @@
     },
     {
       "id": "storage-6",
-      "categoryId": "cat-storageDevice",
+      "categoryId": "storage",
       "image": "storage_image_6.jpg",
       "productName": "ADATA SU800 SATA SSD",
       "category": "Storage Device",
@@ -955,12 +947,10 @@
           "comment": "Good value for a mid-range SSD."
         }
       ]
-    }
-  ],
-  "monitor": [
+    },
     {
       "id": "monitor-7",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_1.jpg",
       "productName": "ASUS ROG Swift PG279Q",
       "category": "Monitor",
@@ -987,7 +977,7 @@
     },
     {
       "id": "monitor-8",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_2.jpg",
       "productName": "LG 27UK850-W",
       "category": "Monitor",
@@ -1014,7 +1004,7 @@
     },
     {
       "id": "monitor-9",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_3.jpg",
       "productName": "Acer Predator X27",
       "category": "Monitor",
@@ -1041,7 +1031,7 @@
     },
     {
       "id": "monitor-10",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_4.jpg",
       "productName": "Samsung Odyssey G7",
       "category": "Monitor",
@@ -1068,7 +1058,7 @@
     },
     {
       "id": "monitor-11",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_5.jpg",
       "productName": "Dell Ultrasharp U2719D",
       "category": "Monitor",
@@ -1095,7 +1085,7 @@
     },
     {
       "id": "monitor-12",
-      "categoryId": "cat-monitor",
+      "categoryId": "monitor",
       "image": "monitor_image_6.jpg",
       "productName": "ViewSonic XG2402",
       "category": "Monitor",
@@ -1119,12 +1109,10 @@
           "comment": "Affordable gaming monitor for competitive players."
         }
       ]
-    }
-  ],
-  "others": [
+    },
     {
       "id": "others-1",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_1.jpg",
       "productName": "RGB LED Strip",
       "category": "Others",
@@ -1151,7 +1139,7 @@
     },
     {
       "id": "others-2",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_2.jpg",
       "productName": "Gaming Mouse Pad",
       "category": "Others",
@@ -1178,7 +1166,7 @@
     },
     {
       "id": "others-3",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_3.jpg",
       "productName": "PC Tool Kit",
       "category": "Others",
@@ -1205,7 +1193,7 @@
     },
     {
       "id": "others-4",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_4.jpg",
       "productName": "External DVD Drive",
       "category": "Others",
@@ -1232,7 +1220,7 @@
     },
     {
       "id": "others-5",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_5.jpg",
       "productName": "Wireless Gaming Controller",
       "category": "Others",
@@ -1259,7 +1247,7 @@
     },
     {
       "id": "others-6",
-      "categoryId": "cat-others",
+      "categoryId": "others",
       "image": "others_image_6.jpg",
       "productName": "PC Dust Filter Kit",
       "category": "Others",
@@ -1283,48 +1271,6 @@
           "comment": "Easy to install and reduces dust buildup significantly."
         }
       ]
-    }
-  ],
-  "news": [
-    {
-      "id": "1",
-      "title": "New Study Reveals Benefits of Regular Exercise",
-      "description": "A recent study conducted by experts in the field suggests that regular exercise can have numerous health benefits, including improved cardiovascular function and increased mental well-being.",
-      "author": "Healthline",
-      "release_date": "June 10, 2023",
-      "category": "GYM",
-      "comment_count": 600,
-      "image_url": "/images/exercise_image.jpg"
-    },
-    {
-      "id": "2",
-      "title": "Tech Company XYZ Launches Revolutionary Smartphone",
-      "description": "Tech Company XYZ has unveiled its latest smartphone model, boasting cutting-edge features, a powerful processor, and an impressive camera system.",
-      "author": "TechNews",
-      "release_date": "June 12, 2023",
-      "category": "Technology",
-      "comment_count": 100,
-      "image_url": "/images/company_image.jpg"
-    },
-    {
-      "id": "3",
-      "title": "SpaceX Successfully Launches Satellite into Orbit",
-      "description": "SpaceX, the private space exploration company, has successfully launched a communication satellite into orbit, marking another milestone in the company's achievements.",
-      "author": "Space News Today",
-      "release_date": "June 15, 2023",
-      "category": "Space",
-      "comment_count": 15,
-      "image_url": "/images/satellite_image.jpg"
-    },
-    {
-      "id": "4",
-      "title": "New Study Shows Benefits of Meditation for Stress Relief",
-      "description": "A recent scientific study has found that regular meditation practice can significantly reduce stress levels and promote a sense of calm and well-being.",
-      "author": "Mindfulness Magazine",
-      "release_date": "June 16, 2023",
-      "category": "Lifestyle",
-      "comment_count": 20,
-      "image_url": "/images/meditation_image.jpg"
     }
   ]
 }

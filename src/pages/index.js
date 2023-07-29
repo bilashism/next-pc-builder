@@ -1,28 +1,24 @@
 import Head from "next/head";
 import RootLayout from "@/components/Layout/RootLayout";
-// import Banner from "@/components/UI/Banner";
-import AllNews from "@/components/UI/AllNews";
-import { useGetNewsesQuery } from "@/redux/api/api";
+import Banner from "@/components/UI/Banner";
+
+import { useGetCategoriesQuery } from "@/redux/api/api";
 import dynamic from "next/dynamic";
+import FeaturedProducts from "@/components/UI/FeaturedProducts";
 
-const HomePage = ({ allNews }) => {
-  // console.log(allNews);
-  const { data, isLoading, isError, error } = useGetNewsesQuery(); //-> redux store data
-  // console.log(data);
-
-
-  const DynamicBanner = dynamic(() => import("@/components/UI/Banner"), {
-    loading: () => <h1>Loading...</h1>,
-    ssr: false,
-  });
+const HomePage = ({ products }) => {
+  // const DynamicBanner = dynamic(() => import("@/components/UI/Banner"), {
+  //   loading: () => <h1>Loading...</h1>,
+  //   ssr: false
+  // });
 
   return (
     <>
       <Head>
         <title>PH-News Portal</title>
       </Head>
-      <DynamicBanner />
-      <AllNews allNews={allNews} />
+      <Banner />
+      <FeaturedProducts products={products} />
     </>
   );
 };
@@ -31,18 +27,18 @@ export default HomePage;
 HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
-
+export function getRandomItemsFromArray(arr, count) {
+  const shuffledArray = arr.sort(() => 0.5 - Math.random());
+  return shuffledArray.slice(0, count);
+}
 export const getStaticProps = async () => {
-  // const res = await fetch("http://localhost:3000/api/news"); // internal API connected with mongoDB
-  const res = await fetch("http://localhost:5000/news"); // --> json server
+  const res = await fetch("http://localhost:5000/products"); // --> server
   const data = await res.json();
-  // console.log(data);
   return {
     props: {
-      allNews: data,
-      // allNews: data.data, // when using internal API connected with mongoDB
+      products: getRandomItemsFromArray(data, 6)
     },
-    revalidate: 10,
+    revalidate: 10
   };
 };
 
