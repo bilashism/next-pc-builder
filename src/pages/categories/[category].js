@@ -49,14 +49,13 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params: { category } }) => {
-  const res = await fetch(
-    `http://localhost:3000/api/categories?id=${category}`
-  ); // --> json server
+  const res = await fetch(`http://localhost:5000/products`); // --> json server
   const data = await res.json();
-  // console.log(data);
+  const filtered = data?.filter(product => product.categoryId === category);
+  console.log(filtered);
   return {
     props: {
-      products: data
+      products: filtered
     }
     // revalidate: 10
   };
