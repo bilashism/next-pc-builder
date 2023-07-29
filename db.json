@@ -205,7 +205,7 @@
       "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 9 5950X",
       "category": "CPU / Processor",
-      "status": "In Stock",
+      "status": "Out of stock",
       "price": 699.99,
       "description": "The ultimate 16-core AMD Ryzen processor for extreme gaming and content creation.",
       "keyFeatures": {
