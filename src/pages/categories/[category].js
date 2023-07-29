@@ -1,5 +1,6 @@
 import RootLayout from "@/components/Layout/RootLayout";
 import SingleCategoryProducts from "@/components/UI/SingleCategoryProducts";
+import Head from "next/head";
 
 const Category = ({ products }) => {
   if (!products || products?.length === 0) {
@@ -7,12 +8,17 @@ const Category = ({ products }) => {
   }
 
   return (
-    <div>
-      <h2 className="text-center text-lg xl:text-2xl py-12">
-        <mark>{products[0].category}:</mark> {products?.length} items
-      </h2>
-      <SingleCategoryProducts products={products} />
-    </div>
+    <>
+      <Head>
+        <title>Next PC Builder - {products[0].category}</title>
+      </Head>
+      <div>
+        <h2 className="text-center text-lg xl:text-2xl py-12">
+          <mark>{products[0].category}:</mark> {products?.length} items
+        </h2>
+        <SingleCategoryProducts products={products} />
+      </div>
+    </>
   );
 };
 

@@ -1,29 +1,38 @@
 import Head from "next/head";
-import styles from "@/styles/Login.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
 import RootLayout from "@/components/Layout/RootLayout";
+
 const LoginPage = () => {
   return (
     <div>
       <Head>
-        <title>Next Login</title>
+        <title>Next PC Builder - Login</title>
       </Head>
-      <div className={styles.form}>
-        <h3>LOGIN</h3>
-        <div className={styles.social_icons}>
-          <FcGoogle />
-          <BsGithub />
-        </div>
-        <hr />
-        <form>
+      <section className="py-12 min-h-[60vh] grid items-center">
+        <div className="container mx-auto px-4">
+          <div className="bg-gray-900/90 text-white rounded-lg px-12 py-24 max-w-xl mx-auto">
+            <h3 className="text-center pb-8 text-xl">
+              Login with your Google account with one click
+            </h3>
+            <div className="text-center flex justify-center items-center w-full h-full">
+              <button
+                type="button"
+                className="inline-flex justify-center items-center">
+                <FcGoogle className="w-12 h-12" />
+              </button>
+            </div>
+            {/* <hr /> */}
+            {/* <form>
           <label htmlFor="">Your Email</label>
           <input type="email" />
           <label htmlFor="">Your Password</label>
           <input type="password" />
           <button type="button">Login</button>
-        </form>
-      </div>
+        </form> */}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

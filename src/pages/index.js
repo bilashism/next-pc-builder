@@ -16,7 +16,7 @@ const HomePage = ({ products, categories }) => {
   return (
     <>
       <Head>
-        <title>Next PC Builder</title>
+        <title>Next PC Builder - Home</title>
       </Head>
       <Banner />
       <FeaturedProducts products={products} />
