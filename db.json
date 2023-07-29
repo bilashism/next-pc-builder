@@ -2,30 +2,37 @@
   "categories": [
     {
       "id": "cpu",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3B1fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "name": "CPU / Processor"
     },
     {
       "id": "motherboard",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW90aGVyYm9hcmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Motherboard"
     },
     {
       "id": "ram",
+      "image": "https://images.unsplash.com/photo-1618352926724-69e5e4215eef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBjJTIwcmFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "name": "RAM"
     },
     {
       "id": "power",
+      "image": "https://images.unsplash.com/photo-1587225036677-95fc14cd067a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBjJTIwcmFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "name": "Power Supply Unit"
     },
     {
       "id": "storage",
+      "image": "https://images.unsplash.com/photo-1643397288474-e961b2d7b68b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBjJTIwcmFtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
       "name": "Storage Device"
     },
     {
       "id": "monitor",
+      "image": "https://images.unsplash.com/photo-1619097647550-0fe7f031c18b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjByYW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Monitor"
     },
     {
       "id": "others",
+      "image": "https://images.unsplash.com/photo-1645225840957-1b789a6c81b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGMlMjByYW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Others"
     }
   ],
@@ -33,7 +40,7 @@
     {
       "id": "cpu-1",
       "categoryId": "cpu",
-      "image": "cpu_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Intel Core i9-9900K",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -60,7 +67,7 @@
     {
       "id": "cpu-2",
       "categoryId": "cpu",
-      "image": "cpu_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 9 5900X",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -87,7 +94,7 @@
     {
       "id": "cpu-3",
       "categoryId": "cpu",
-      "image": "cpu_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 7 5800X",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -114,7 +121,7 @@
     {
       "id": "cpu-4",
       "categoryId": "cpu",
-      "image": "cpu_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Intel Core i7-11700K",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -141,7 +148,7 @@
     {
       "id": "cpu-5",
       "categoryId": "cpu",
-      "image": "cpu_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 5 5600X",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -168,7 +175,7 @@
     {
       "id": "cpu-6",
       "categoryId": "cpu",
-      "image": "cpu_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Intel Core i5-11600K",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -195,7 +202,7 @@
     {
       "id": "cpu-7",
       "categoryId": "cpu",
-      "image": "cpu_image_7.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 9 5950X",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -222,7 +229,7 @@
     {
       "id": "cpu-8",
       "categoryId": "cpu",
-      "image": "cpu_image_8.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Intel Core i5-11400F",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -249,7 +256,7 @@
     {
       "id": "cpu-9",
       "categoryId": "cpu",
-      "image": "cpu_image_9.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "AMD Ryzen 7 3700X",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -276,7 +283,7 @@
     {
       "id": "cpu-10",
       "categoryId": "cpu",
-      "image": "cpu_image_10.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Intel Core i3-10100",
       "category": "CPU / Processor",
       "status": "In Stock",
@@ -303,7 +310,7 @@
     {
       "id": "motherboard-1",
       "categoryId": "motherboard",
-      "image": "motherboard_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ASUS ROG Strix Z590-E",
       "category": "Motherboard",
       "status": "In Stock",
@@ -330,7 +337,7 @@
     {
       "id": "motherboard-2",
       "categoryId": "motherboard",
-      "image": "motherboard_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "GIGABYTE B550 AORUS Elite",
       "category": "Motherboard",
       "status": "In Stock",
@@ -357,7 +364,7 @@
     {
       "id": "motherboard-3",
       "categoryId": "motherboard",
-      "image": "motherboard_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "MSI MPG X570 GAMING PRO CARBON",
       "category": "Motherboard",
       "status": "In Stock",
@@ -384,7 +391,7 @@
     {
       "id": "motherboard-4",
       "categoryId": "motherboard",
-      "image": "motherboard_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ASRock B560M-ITX/ac",
       "category": "Motherboard",
       "status": "In Stock",
@@ -411,7 +418,7 @@
     {
       "id": "motherboard-5",
       "categoryId": "motherboard",
-      "image": "motherboard_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ASUS Prime H510M-E",
       "category": "Motherboard",
       "status": "In Stock",
@@ -438,7 +445,7 @@
     {
       "id": "motherboard-6",
       "categoryId": "motherboard",
-      "image": "motherboard_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ASRock X570 Taichi",
       "category": "Motherboard",
       "status": "In Stock",
@@ -465,7 +472,7 @@
     {
       "id": "ram-1",
       "categoryId": "ram",
-      "image": "ram_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Corsair Vengeance LPX 16GB",
       "category": "RAM",
       "status": "In Stock",
@@ -492,7 +499,7 @@
     {
       "id": "ram-2",
       "categoryId": "ram",
-      "image": "ram_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "G.Skill Trident Z RGB 32GB",
       "category": "RAM",
       "status": "In Stock",
@@ -519,7 +526,7 @@
     {
       "id": "ram-3",
       "categoryId": "ram",
-      "image": "ram_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Crucial Ballistix 8GB",
       "category": "RAM",
       "status": "In Stock",
@@ -546,7 +553,7 @@
     {
       "id": "ram-4",
       "categoryId": "ram",
-      "image": "ram_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Team T-FORCE DARK Z 64GB",
       "category": "RAM",
       "status": "In Stock",
@@ -573,7 +580,7 @@
     {
       "id": "ram-5",
       "categoryId": "ram",
-      "image": "ram_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "HyperX Fury 32GB",
       "category": "RAM",
       "status": "In Stock",
@@ -600,7 +607,7 @@
     {
       "id": "ram-6",
       "categoryId": "ram",
-      "image": "ram_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Corsair Vengeance RGB Pro 64GB",
       "category": "RAM",
       "status": "In Stock",
@@ -627,7 +634,7 @@
     {
       "id": "psu-1",
       "categoryId": "power",
-      "image": "psu_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Corsair RM750x",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -654,7 +661,7 @@
     {
       "id": "psu-2",
       "categoryId": "power",
-      "image": "psu_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "EVGA SuperNOVA 850 G3",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -681,7 +688,7 @@
     {
       "id": "psu-3",
       "categoryId": "power",
-      "image": "psu_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Seasonic Focus GX-650",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -708,7 +715,7 @@
     {
       "id": "psu-4",
       "categoryId": "power",
-      "image": "psu_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Thermaltake Toughpower GF1 750W",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -735,7 +742,7 @@
     {
       "id": "psu-5",
       "categoryId": "power",
-      "image": "psu_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Cooler Master MWE Gold 650",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -762,7 +769,7 @@
     {
       "id": "psu-6",
       "categoryId": "power",
-      "image": "psu_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "be quiet! Straight Power 11 850W",
       "category": "Power Supply Unit",
       "status": "In Stock",
@@ -789,7 +796,7 @@
     {
       "id": "storage-1",
       "categoryId": "storage",
-      "image": "storage_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Samsung 980 PRO NVMe SSD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -816,7 +823,7 @@
     {
       "id": "storage-2",
       "categoryId": "storage",
-      "image": "storage_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Western Digital Blue SATA SSD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -843,7 +850,7 @@
     {
       "id": "storage-3",
       "categoryId": "storage",
-      "image": "storage_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Seagate BarraCuda Internal HDD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -870,7 +877,7 @@
     {
       "id": "storage-4",
       "categoryId": "storage",
-      "image": "storage_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Crucial MX500 SATA SSD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -897,7 +904,7 @@
     {
       "id": "storage-5",
       "categoryId": "storage",
-      "image": "storage_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Sabrent Rocket Q NVMe SSD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -924,7 +931,7 @@
     {
       "id": "storage-6",
       "categoryId": "storage",
-      "image": "storage_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ADATA SU800 SATA SSD",
       "category": "Storage Device",
       "status": "In Stock",
@@ -951,7 +958,7 @@
     {
       "id": "monitor-7",
       "categoryId": "monitor",
-      "image": "monitor_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ASUS ROG Swift PG279Q",
       "category": "Monitor",
       "status": "In Stock",
@@ -978,7 +985,7 @@
     {
       "id": "monitor-8",
       "categoryId": "monitor",
-      "image": "monitor_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "LG 27UK850-W",
       "category": "Monitor",
       "status": "In Stock",
@@ -1005,7 +1012,7 @@
     {
       "id": "monitor-9",
       "categoryId": "monitor",
-      "image": "monitor_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Acer Predator X27",
       "category": "Monitor",
       "status": "In Stock",
@@ -1032,7 +1039,7 @@
     {
       "id": "monitor-10",
       "categoryId": "monitor",
-      "image": "monitor_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Samsung Odyssey G7",
       "category": "Monitor",
       "status": "In Stock",
@@ -1059,7 +1066,7 @@
     {
       "id": "monitor-11",
       "categoryId": "monitor",
-      "image": "monitor_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Dell Ultrasharp U2719D",
       "category": "Monitor",
       "status": "In Stock",
@@ -1086,7 +1093,7 @@
     {
       "id": "monitor-12",
       "categoryId": "monitor",
-      "image": "monitor_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "ViewSonic XG2402",
       "category": "Monitor",
       "status": "In Stock",
@@ -1113,7 +1120,7 @@
     {
       "id": "others-1",
       "categoryId": "others",
-      "image": "others_image_1.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "RGB LED Strip",
       "category": "Others",
       "status": "In Stock",
@@ -1140,7 +1147,7 @@
     {
       "id": "others-2",
       "categoryId": "others",
-      "image": "others_image_2.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Gaming Mouse Pad",
       "category": "Others",
       "status": "In Stock",
@@ -1167,7 +1174,7 @@
     {
       "id": "others-3",
       "categoryId": "others",
-      "image": "others_image_3.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "PC Tool Kit",
       "category": "Others",
       "status": "In Stock",
@@ -1194,7 +1201,7 @@
     {
       "id": "others-4",
       "categoryId": "others",
-      "image": "others_image_4.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "External DVD Drive",
       "category": "Others",
       "status": "In Stock",
@@ -1221,7 +1228,7 @@
     {
       "id": "others-5",
       "categoryId": "others",
-      "image": "others_image_5.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "Wireless Gaming Controller",
       "category": "Others",
       "status": "In Stock",
@@ -1248,7 +1255,7 @@
     {
       "id": "others-6",
       "categoryId": "others",
-      "image": "others_image_6.jpg",
+      "image": "https://images.unsplash.com/photo-1618764400608-9e7115eede74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGMlMjBwYXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "productName": "PC Dust Filter Kit",
       "category": "Others",
       "status": "In Stock",

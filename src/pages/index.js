@@ -5,8 +5,9 @@ import Banner from "@/components/UI/Banner";
 import { useGetCategoriesQuery } from "@/redux/api/api";
 import dynamic from "next/dynamic";
 import FeaturedProducts from "@/components/UI/FeaturedProducts";
+import FeaturedCategories from "@/components/UI/FeaturedCategories";
 
-const HomePage = ({ products }) => {
+const HomePage = ({ products, categories }) => {
   // const DynamicBanner = dynamic(() => import("@/components/UI/Banner"), {
   //   loading: () => <h1>Loading...</h1>,
   //   ssr: false
@@ -15,10 +16,11 @@ const HomePage = ({ products }) => {
   return (
     <>
       <Head>
-        <title>PH-News Portal</title>
+        <title>Next PC Builder</title>
       </Head>
       <Banner />
       <FeaturedProducts products={products} />
+      <FeaturedCategories categories={categories} />
     </>
   );
 };
@@ -32,11 +34,14 @@ export function getRandomItemsFromArray(arr, count) {
   return shuffledArray.slice(0, count);
 }
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products"); // --> server
-  const data = await res.json();
+  const productsRes = await fetch("http://localhost:5000/products");
+  const productsData = await productsRes.json();
+  const categoriesRes = await fetch("http://localhost:5000/categories");
+  const categoriesData = await categoriesRes.json();
   return {
     props: {
-      products: getRandomItemsFromArray(data, 6)
+      products: getRandomItemsFromArray(productsData, 6),
+      categories: categoriesData
     },
     revalidate: 10
   };
