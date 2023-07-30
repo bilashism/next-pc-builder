@@ -15,7 +15,7 @@ const NavigationEL = () => {
   const categoriesData = data;
   return (
     <Navbar fluid rounded className="sticky top-0 isolate z-50">
-      <Link href="/" className="text-blue-500 font-bold flex-grow">
+      <Link href="/" className="text-blue-500 font-bold flex-grow max-w-max">
         <span className="">
           Next <span className="text-purple-600">PC</span>{" "}
         </span>
