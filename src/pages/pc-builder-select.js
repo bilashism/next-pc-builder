@@ -31,15 +31,14 @@ PcBuilderSelect.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async context => {
   const { query } = context;
-  const res = await fetch(`http://localhost:3000/api/db?name=products`);
-  const data = await res.json();
-  const filteredProducts = [...data?.data].filter(
-    product => product.categoryId === query?.category
+  const res = await fetch(
+    `https://next-pc-builder-api.vercel.app/products/category/${query?.category}`
   );
+  const data = await res.json();
 
   return {
     props: {
-      products: filteredProducts
+      products: data
     }
   };
 };

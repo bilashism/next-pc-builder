@@ -12,7 +12,7 @@ const NavigationEL = () => {
   const { pathname, asPath } = useRouter();
   const { data, isLoading, isError, error } = useGetCategoriesQuery();
 
-  const categoriesData = data?.data;
+  const categoriesData = data;
   return (
     <Navbar fluid rounded className="sticky top-0 isolate z-50">
       <Link href="/" className="text-blue-500 font-bold">

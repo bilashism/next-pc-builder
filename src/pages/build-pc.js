@@ -85,12 +85,12 @@ PcBuilderPage.getLayout = function getLayout(page) {
 
 export const getStaticProps = async () => {
   const categoriesRes = await fetch(
-    "http://localhost:3000/api/db?name=categories"
+    "https://next-pc-builder-api.vercel.app/categories"
   );
   const categoriesData = await categoriesRes.json();
   return {
     props: {
-      categories: categoriesData?.data
+      categories: categoriesData
     },
     revalidate: 10
   };
