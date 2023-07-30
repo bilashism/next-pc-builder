@@ -34,14 +34,16 @@ export function getRandomItemsFromArray(arr, count) {
   return shuffledArray.slice(0, count);
 }
 export const getStaticProps = async () => {
-  const productsRes = await fetch("http://localhost:5000/products");
+  const productsRes = await fetch("http://localhost:3000/api/db?name=products");
   const productsData = await productsRes.json();
-  const categoriesRes = await fetch("http://localhost:5000/categories");
+  const categoriesRes = await fetch(
+    "http://localhost:3000/api/db?name=categories"
+  );
   const categoriesData = await categoriesRes.json();
   return {
     props: {
-      products: getRandomItemsFromArray(productsData, 6),
-      categories: categoriesData
+      products: getRandomItemsFromArray(productsData.data, 6),
+      categories: categoriesData.data
     },
     revalidate: 10
   };

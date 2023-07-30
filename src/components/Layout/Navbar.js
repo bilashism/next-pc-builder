@@ -10,12 +10,9 @@ const NavigationEL = () => {
   const { data: userSession } = useSession();
   // console.log(userSession);
   const { pathname, asPath } = useRouter();
-  const {
-    data: categoriesData,
-    isLoading,
-    isError,
-    error
-  } = useGetCategoriesQuery(); //-> redux store data
+  const { data, isLoading, isError, error } = useGetCategoriesQuery();
+
+  const categoriesData = data?.data;
   return (
     <Navbar fluid rounded className="sticky top-0 isolate z-50">
       <Link href="/" className="text-blue-500 font-bold">

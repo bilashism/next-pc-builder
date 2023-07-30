@@ -154,10 +154,10 @@ SingleProduct.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:3000/api/db?name=products");
   const products = await res.json();
 
-  const paths = products.map(product => ({
+  const paths = products?.data?.map(product => ({
     params: { id: product.id }
   }));
 
@@ -165,13 +165,13 @@ export const getStaticPaths = async () => {
 };
 export const getStaticProps = async context => {
   const productsRes = await fetch(
-    `http://localhost:5000/products/${context.params.id}`
+    `http://localhost:3000/api/db?name=products&id=${context.params.id}`
   );
   const productsData = await productsRes.json();
   // console.log(productsData);
   return {
     props: {
-      product: productsData
+      product: productsData?.data
     },
     revalidate: 10
   };

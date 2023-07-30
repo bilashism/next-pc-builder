@@ -27,7 +27,7 @@ const PcBuilderPage = ({ categories }) => {
           <div className="grid gap-12 md:grid-cols-1 xl:grid-cols-1">
             {categories
               ?.filter(category => category?.id !== "others")
-              .map((category, idx) => (
+              ?.map((category, idx) => (
                 <div
                   key={idx + 1}
                   className="flex flex-col xl:flex-row gap-8 justify-center xl:justify-between items-center even:bg-slate-300 rounded-md p-3 border border-slate-300">
@@ -84,11 +84,13 @@ PcBuilderPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const categoriesRes = await fetch("http://localhost:5000/categories");
+  const categoriesRes = await fetch(
+    "http://localhost:3000/api/db?name=categories"
+  );
   const categoriesData = await categoriesRes.json();
   return {
     props: {
-      categories: categoriesData
+      categories: categoriesData?.data
     },
     revalidate: 10
   };

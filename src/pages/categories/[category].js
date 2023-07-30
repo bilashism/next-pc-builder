@@ -33,19 +33,21 @@ Category.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/categories");
+  const res = await fetch("http://localhost:3000/api/db/?name=categories");
   const categories = await res.json();
-  const paths = categories?.map(news => ({
-    params: { category: news.id }
+  const paths = categories?.data?.map(category => ({
+    params: { category: category.id }
   }));
 
   return { paths, fallback: false };
 };
 
 export const getStaticProps = async ({ params: { category } }) => {
-  const res = await fetch(`http://localhost:5000/products`);
+  const res = await fetch(`http://localhost:3000/api/db/?name=products`);
   const data = await res.json();
-  const filtered = data?.filter(product => product.categoryId === category);
+  const filtered = data?.data.filter(
+    product => product.categoryId === category
+  );
   return {
     props: {
       products: filtered

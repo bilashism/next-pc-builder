@@ -31,9 +31,9 @@ PcBuilderSelect.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async context => {
   const { query } = context;
-  const res = await fetch(`http://localhost:5000/products`);
+  const res = await fetch(`http://localhost:3000/api/db?name=products`);
   const data = await res.json();
-  const filteredProducts = [...data].filter(
+  const filteredProducts = [...data?.data].filter(
     product => product.categoryId === query?.category
   );
 
