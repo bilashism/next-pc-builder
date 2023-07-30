@@ -3,7 +3,6 @@ import SingleCategoryProducts from "@/components/UI/SingleCategoryProducts";
 import Head from "next/head";
 
 const PcBuilderSelect = ({ products }) => {
-  console.log(products);
   if (!products || products?.length === 0) {
     return <div>No products to display.</div>;
   }

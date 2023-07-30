@@ -1,8 +1,14 @@
+import { setComponent } from "@/redux/features/pcBuilder/pcBuilderSlice";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
+import { useDispatch } from "react-redux";
 
 const FeaturedProductCard = ({ product, pcBuilder }) => {
+  const dispatch = useDispatch();
+  const router = useRouter();
+
   const {
     id,
     categoryId,
@@ -65,6 +71,10 @@ const FeaturedProductCard = ({ product, pcBuilder }) => {
         {pcBuilder ? (
           <button
             type="button"
+            onClick={() => {
+              dispatch(setComponent(product));
+              router.back();
+            }}
             className="capitalize flex justify-center items-center text-center bg-slate-800 p-4 rounded-md text-white hover:text-blue-500 hover:bg-slate-700 transition-colors">
             Add to pc builder
           </button>
