@@ -15,13 +15,13 @@ const NavigationEL = () => {
   const categoriesData = data;
   return (
     <Navbar fluid rounded className="sticky top-0 isolate z-50">
-      <Link href="/" className="text-blue-500 font-bold">
+      <Link href="/" className="text-blue-500 font-bold flex-grow">
         <span className="">
           Next <span className="text-purple-600">PC</span>{" "}
         </span>
         <span className="">Builder</span>
       </Link>
-      <div className="flex md:order-2">
+      <div className="flex md:order-2 items-center gap-4">
         {userSession?.user?.email ? (
           <Dropdown
             inline
