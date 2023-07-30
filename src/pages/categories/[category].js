@@ -1,16 +1,20 @@
 import RootLayout from "@/components/Layout/RootLayout";
 import SingleCategoryProducts from "@/components/UI/SingleCategoryProducts";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 const Category = ({ products }) => {
+  const router = useRouter();
+
   if (!products || products?.length === 0) {
     return <div>No products to display.</div>;
   }
+  const currentCategoryName = products[0]?.category || "Category";
 
   return (
     <>
       <Head>
-        <title>Next PC Builder - {products[0].category}</title>
+        <title>Next PC Builder - {currentCategoryName}</title>
       </Head>
       <div>
         <h2 className="text-center text-lg xl:text-2xl py-12">

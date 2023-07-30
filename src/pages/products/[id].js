@@ -168,7 +168,7 @@ export const getStaticProps = async context => {
     `http://localhost:5000/products/${context.params.id}`
   );
   const productsData = await productsRes.json();
-  console.log(productsData);
+  // console.log(productsData);
   return {
     props: {
       product: productsData

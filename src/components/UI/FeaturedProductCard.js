@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const FeaturedProductCard = ({ product }) => {
+const FeaturedProductCard = ({ product, pcBuilder }) => {
   const {
     id,
     categoryId,
@@ -62,12 +62,19 @@ const FeaturedProductCard = ({ product }) => {
             </span>
           </div>
         </div>
-
-        <Link
-          href={`/products/${id}`}
-          className="capitalize flex justify-center items-center text-center bg-slate-800 p-4 rounded-md text-white hover:text-blue-500 hover:bg-slate-700 transition-colors">
-          view details
-        </Link>
+        {pcBuilder ? (
+          <button
+            type="button"
+            className="capitalize flex justify-center items-center text-center bg-slate-800 p-4 rounded-md text-white hover:text-blue-500 hover:bg-slate-700 transition-colors">
+            Add to pc builder
+          </button>
+        ) : (
+          <Link
+            href={`/products/${id}`}
+            className="capitalize flex justify-center items-center text-center bg-slate-800 p-4 rounded-md text-white hover:text-blue-500 hover:bg-slate-700 transition-colors">
+            view details
+          </Link>
+        )}
       </div>
     </div>
   );
