@@ -10,7 +10,7 @@ import { toast, Toaster } from "react-hot-toast";
 
 const PcBuilderPage = ({ categories }) => {
   const pcBuilderState = useSelector(state => state.pcBuilder);
-  console.log(pcBuilderState);
+  // console.log(pcBuilderState);
   const notify = () =>
     toast.success("Your new PC have been build successfully! 🎉✨");
 
@@ -93,3 +93,4 @@ export const getStaticProps = async () => {
     revalidate: 10
   };
 };
+

@@ -2,10 +2,26 @@ import Head from "next/head";
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
 import RootLayout from "@/components/Layout/RootLayout";
+import { signIn, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
+import { Toaster, toast } from "react-hot-toast";
 
 const LoginPage = () => {
+  const router = useRouter();
+  // console.log(router);
+
+  const handleGoogleSignIn = async () => {
+    const result = await signIn("google", {
+      callbackUrl: router.query.callbackUrl || "/"
+    });
+    if (result?.error) {
+      // Handle login error if needed
+      toast(`Something went wrong!`);
+    }
+  };
+
   return (
-    <div>
+    <>
       <Head>
         <title>Next PC Builder - Login</title>
       </Head>
@@ -18,6 +34,7 @@ const LoginPage = () => {
             <div className="text-center flex justify-center items-center w-full h-full">
               <button
                 type="button"
+                onClick={handleGoogleSignIn}
                 className="inline-flex justify-center items-center">
                 <FcGoogle className="w-12 h-12" />
               </button>
@@ -33,7 +50,8 @@ const LoginPage = () => {
           </div>
         </div>
       </section>
-    </div>
+      <Toaster />
+    </>
   );
 };
 

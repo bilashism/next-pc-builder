@@ -4,8 +4,11 @@ import Link from "next/link";
 import { Dropdown, Navbar } from "flowbite-react";
 import { useRouter } from "next/router";
 import { useGetCategoriesQuery } from "@/redux/api/api";
+import { useSession, signOut } from "next-auth/react";
 
 const NavigationEL = () => {
+  const { data: userSession } = useSession();
+  // console.log(userSession);
   const { pathname, asPath } = useRouter();
   const {
     data: categoriesData,
@@ -22,31 +25,38 @@ const NavigationEL = () => {
         <span className="">Builder</span>
       </Link>
       <div className="flex md:order-2">
-        <Link
-          href="/login"
-          className={`${
-            pathname === "/login" ? "text-red-400" : "text-blue-500"
-          }`}>
-          Login
-        </Link>
-        <Dropdown
-          inline
-          label={
-            <Image
-              src="https://gravatar.com/avatar/94d093eda664addd6e450d7e9881fgsf?s=28&d=identicon&r=PG"
-              width="28"
-              height="28"
-              alt="user"
-            />
-          }>
-          <Dropdown.Header>
-            <span className="block text-sm">Bonnie Green</span>
-            {/* <span className="block truncate text-sm font-medium">
-              name@flowbite.com
-            </span> */}
-          </Dropdown.Header>
-          <Dropdown.Item>Sign out</Dropdown.Item>
-        </Dropdown>
+        {userSession?.user?.email ? (
+          <Dropdown
+            inline
+            label={
+              <Image
+                src={
+                  userSession?.user?.image ||
+                  `https://gravatar.com/avatar/94d093eda664addd6e450d7e9881fgsf?s=28&d=identicon&r=PG`
+                }
+                width="40"
+                height="40"
+                alt={userSession?.user?.name || "user"}
+                className="w-10 h-10 rounded-full"
+              />
+            }>
+            <Dropdown.Header>
+              <span className="block truncate text-sm font-medium">
+                {userSession?.user?.email}
+              </span>
+            </Dropdown.Header>
+            <Dropdown.Item onClick={() => signOut()}>Sign out</Dropdown.Item>
+          </Dropdown>
+        ) : (
+          <Link
+            href="/login"
+            className={`${
+              pathname === "/login" ? "text-red-400" : "text-blue-500"
+            }`}>
+            Login
+          </Link>
+        )}
+
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
