@@ -51,15 +51,3 @@ export const getStaticProps = async () => {
   };
 };
 
-
-// for server side rendering (SSR) with json-server data
-/* export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/news");
-  const data = await res.json();
-  // console.log(data);
-  return {
-    props: {
-      allNews: data,
-    }
-  };
-}; */

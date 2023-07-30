@@ -13,7 +13,7 @@ export const authOptions = {
   ],
 
   pages: {
-    signIn: "/login"
+    signIn: "https://next-pc-builder.vercel.app/login"
   }
 };
 
